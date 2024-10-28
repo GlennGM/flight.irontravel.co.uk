@@ -1971,16 +1971,6 @@ ul {
   color: var(--irontravel-white);
   font-weight: 500;
   line-height: 20px;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translateY(-120px);
-  transform: translateY(-120px);
-  -webkit-transition-delay: 1000ms;
-  transition-delay: 1000ms;
-  -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
-  transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
 }
 
 .main-slider__title {
@@ -1993,16 +1983,6 @@ ul {
   text-transform: uppercase;
   margin-top: 26px;
   margin-bottom: 39px;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translateY(-120px);
-  transform: translateY(-120px);
-  -webkit-transition-delay: 1000ms;
-  transition-delay: 1000ms;
-  -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
-  transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
 }
 
 .main-slider__btn-box {
@@ -2011,15 +1991,6 @@ ul {
   gap: 16px;
   align-items: center;
   justify-content: center;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translateY(120px);
-  transform: translateY(120px);
-  -webkit-transition-delay: 1000ms;
-  transition-delay: 1000ms;
-  -webkit-transition: opacity 1000ms ease, -webkit-transform 1000ms ease;
-  transition: opacity 1000ms ease, -webkit-transform 1000ms ease;
-  transition: transform 1000ms ease, opacity 1000ms ease, -webkit-transform 2000ms ease;
 }
 
 .main-slider__btn {
@@ -2047,15 +2018,6 @@ ul {
 
 .main-slider__btn-two:before {
   background-color: var(--irontravel-highlight);
-}
-
-.main-slider .swiper-slide-active .main-slider__title,
-.main-slider .swiper-slide-active .main-slider__sub-title,
-.main-slider .swiper-slide-active .main-slider__btn-box {
-  visibility: visible;
-  opacity: 1;
-  -webkit-transform: translateY(0) translateX(0);
-  transform: translateY(0) translateX(0);
 }
 
 /*--------------------------------------------------------------
